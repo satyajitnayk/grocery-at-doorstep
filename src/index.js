@@ -5,7 +5,7 @@ const expressApp = require('./express-app');
 require('dotenv').config();
 
 const StartServer = async () => {
-  console.log(process.env.MONGODB_URI);
+  // console.log(process.env.MONGODB_URI);
   const app = express();
 
   await databaseConnection();
